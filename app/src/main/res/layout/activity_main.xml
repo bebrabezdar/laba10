@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img2" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="412dp"
+        android:layout_height="428dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Белым вином по холодным губам\n
+Помни, но не предавай\n
+Свежие капли сырого винта\n
+До звёзд не дотянешься на каблуках\n
+\n
+Искавший любовь здесь, погибель нашёл\n
+Но ты себя сам посадил за решётки\n
+Реплики псевдопижонов\n
+Я снова пожёван и снова прожжён\n
+\n
+На кураже или под куражём\n
+Но мы в итоге остались одни\n
+Хрустальные дни разбивались на пазлы\n
+Но я продолжал дёргать за волоски\n
+\n
+Скинхеды танцуют на твоём лице\n
+Я посадил вашу морду на цепь\n
+Важно признаться, что нос кокаиновый\n
+Но мы не знали, что будет в конце\n
+\n
+Церкви пылали высоким костром\n
+Заколоти меня в гроб\n
+Узел мечты так опасен\n
+Но я попаду в него первым числом\n
+\n
+Зелёный газон, на нём голое тело\n
+Вы так хотели, но вы не смогли\n
+Думай про завтра, когда в твоей трубке\n
+Однажды запляшут гудки\n
+\n
+Всё относительно, вплоть до мурашек\n
+И мне наплевать о чём ты говоришь\n
+Я видел красивых, я трахался с ними\n
+Поверь мне, я знаю, чем пахнет Париж\n
+\n
+Трудно стоять на ногах\n
+Ведь разговор из Привет и Пока\n
+Ленту пускаю в толпу без стеснений\n
+Ведь ваша приличность мне вряд-ли близка\n
+\n
+Пусть всё закончится именно здесь\n
+Мне остаётся лишь сладкая месть\n
+Память ложится верёвкой на шею\n
+Архив неудач и моих поражений\n"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
